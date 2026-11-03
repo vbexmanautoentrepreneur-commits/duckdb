@@ -169,7 +169,6 @@ class MainWindow(QMainWindow):
             new_id = (1 if pd.isna(max_id) else int(max_id) + 1)
             with open(csv_file, "a", newline="", encoding="utf-8") as f:
                 writer = csv.writer(f)
-                print([new_id, data["nom"], data["age"], data["service"], data["salary"]])
                 writer.writerow([new_id, data["nom"], data["age"], data["service"], data["salary"]])
             self.load_data()
 

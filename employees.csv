@@ -1,5 +1,5 @@
 id,nom,age,service,salary
-9,Iris,45,Management,10000
+9,Iris,45,Management,10000.0
 3,Charlie,42,QA,5500.0
 17,qqsqs,18,qss,5000.0
 1,Alice,25,IT,5000.0
@@ -12,7 +12,8 @@ id,nom,age,service,salary
 7,Grace,31,IT,4100.0
 4,David,29,QA,3200.0
 8,Hugo,27,RH,2900.0
-12,dsqd,18,qdqd,2000.0
+12,dsqd,18,qdqd,5000
 6,Frank,50,Management,1000.0
 16,sssss,18,sssss,1000.0
 15,ssq,18,ssq,500.0
+18,seb,18,duf,1000
